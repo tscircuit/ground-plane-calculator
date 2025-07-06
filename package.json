@@ -1,0 +1,23 @@
+{
+  "name": "ground-plane-calculator",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "cosmos",
+    "format": "biome format --write .",
+    "format:check": "biome format ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.6",
+    "@types/bun": "latest",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "react": "^19.1.0",
+    "react-cosmos": "^7.0.0",
+    "react-cosmos-plugin-vite": "^7.0.0",
+    "react-dom": "^19.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
